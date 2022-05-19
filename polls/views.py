@@ -6,3 +6,9 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("Hello, world. I am changed now.")
+
+def index2(request):
+    return HttpResponse("So I am index2 ? ")
+
+def index3(request):
+    return HttpResponse("INDEX 3")
